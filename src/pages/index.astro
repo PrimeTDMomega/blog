@@ -9,6 +9,7 @@ import Card from "@components/Card";
 import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import { SOCIALS } from "@config";
+import SpeedInsights from "@vercel/speed-insights/astro";
 
 const posts = await getCollection("blog");
 
@@ -159,3 +160,4 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     @apply my-8 text-center;
   }
 </style>
+<SpeedInsights />
