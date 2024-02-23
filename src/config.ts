@@ -1,8 +1,8 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://witheredknights.github.io/blog/", // replace this with your deployed domain
-  author: "Sat Naing",
+  website: "https://wkblog.vercel.app/", // replace this with your deployed domain
+  author: "primetdm",
   desc: "A blog site made by primetdm for shitposting mostly.",
   title: "WKBLOG",
   ogImage: "astropaper-og.jpg",
@@ -26,7 +26,7 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/primetdmomega/blog",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
@@ -56,7 +56,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Twitter",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/primeinspace",
     linkTitle: `${SITE.title} on Twitter`,
     active: false,
   },
